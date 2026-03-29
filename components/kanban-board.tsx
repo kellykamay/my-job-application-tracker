@@ -1,6 +1,6 @@
 "use client";
 
-import { Board, Column, JobApplication } from "@/lib/models/models.types";
+import { Board, Column, JobApplication } from "@/lib/models/models.type";
 import {
   Award,
   Calendar,
