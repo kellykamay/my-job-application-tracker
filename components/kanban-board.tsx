@@ -305,6 +305,7 @@ export default function KanbanBoard({ board, userId }: KanbanBoardProps) {
   const activeJob = sortedColumns
     .flatMap((col) => col.jobApplications || [])
     .find((job) => job._id === activeId);
+  
   return (
     <DndContext
       sensors={sensors}
